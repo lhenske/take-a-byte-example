@@ -1,0 +1,60 @@
+.jumbotron .portrait {
+    border-radius: 10%;
+    height: 150px;
+    transform: rotate(90deg);
+}
+
+.icon {
+    font-size: 5vw;
+    color: whitesmoke;
+    position: relative;
+    margin-right:10%;
+    text-align: right;
+}
+
+.montana {
+    margin: 0%;
+    background: url(mt.jpg);
+    background-repeat: no-repeat;
+    width: inherit;
+    background-size: 100vw;
+    text-align: right;   
+}
+.sanfran {
+    margin: 0%;
+    background: url(sf.jpg);
+    background-repeat: no-repeat;
+    width: inherit;
+    background-size: 100vw;
+    text-align: right;
+}
+
+.colgate {
+    margin: 0%;
+    margin-top: 0;
+    background: url(colgate.jpg);
+    background-repeat: no-repeat;
+    width: inherit;
+    background-size: 100vw;
+    text-align: right;
+}
+
+.text-block {
+    top:15%;
+    color: white;
+    font-size: 25;
+    width: 35%;
+    text-align: left;
+}
+
+.hidden-wrapper .hidden-text {
+    width:300px;
+    visibility:hidden;
+    display: inline-block;
+    padding-bottom: 10%;
+}
+
+.hidden-wrapper:hover .hidden-text {
+    visibility:visible;
+    position: inline;
+}
